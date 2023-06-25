@@ -1,0 +1,302 @@
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+.bg-light-1{
+    background-color: #3C5B0D!important;
+}
+.nav-item a{
+    color:#fff;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color:#F3E020;
+    
+}
+.navbar-brand {
+    color:#fff!important;
+    font-family: 'Climate Crisis', cursive;
+}
+.card-2 {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 2.5rem;
+}
+.card-1{
+    font-size:2.8rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+// new css banner 
+.ti1 {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 2.5rem;
+}
+.ti2{
+    font-size:1.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.act-2{
+    padding:10px 40px;
+    border-radius:30px;
+    color:#fff;
+    background-color:#E7C000 ;
+    font-size:1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+     
+}
+.card{
+    box-shadow: #EFEAE4 5px 5px !important;
+}
+.act-3{
+    padding:5px 20px;
+    border-radius:30px;
+    color:#fff;
+    background-color:#DB095A;
+    font-size:0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration:none;
+        color:#fff;
+        background-color: #48041e;
+    }
+     
+}
+.v {
+text-decoration: none;
+color:#000;
+}
+
+.section1{
+    background-color: #22312A;
+    color:#fff;
+}
+.section2{
+    background: #E2DDB0;  /* fallback for old browsers */
+  color:#000!important;
+
+}
+.sec1{
+   
+    font-family: 'Climate Crisis', cursive;
+    font-size:1.3rem;
+
+}
+
+.section_home{
+    background-color: #F1F2F3;
+}
+
+.sec11{
+    font-size:1.2rem;
+   
+}
+.rot{
+    transform: rotate(-3deg);
+}
+.titre{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1.3rem; 
+    font-weight: 800;
+    margin-bottom: 20px;
+    background-color: #E7C000;
+    border-radius:30px;
+    box-shadow:rgba(231, 192, 0,0.4)5px 5px,rgba(231, 192, 0, 0.3) 10px 10px,rgba(231, 192, 0,0.2) 15px 15px,rgba(231, 192, 0,0.1) 20px 20px,rgba(231, 192, 0,0.05) 25px 25px ;
+ 
+}
+.pt-4{
+    font-size:14px!important;
+}
+.fs-7{
+font-size:0.7rem;
+}
+.footer_contain{
+  color:#fff;
+  background-color: #000;
+}
+// .it{
+  
+// }
+.it >i{
+    font-size:2.3rem;
+    color:#DB095A;
+  
+}
+.support{
+    height:250px;
+}
+
+.card-a:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    filter: grayscale(80%);
+}
+.card-title{
+    font-size:0.8rem;
+    font-weight:500;
+  
+}
+
+
+.card_b{
+    color:#fff;
+}
+.titre{
+   
+}
+.contain-card{
+  background-color: #0000;
+}
+.ra{
+    background-color:#191A2F;
+    border:0.3px solid rgba(255,255,255,0.2);
+    border-radius: 30px;
+}
+.ro{
+    background-color:#191A2F; 
+}
+.ia{
+    color:#fff;
+    font-weight: 600;
+}
+.bi-caret-right-fill{
+    font-size:16px;
+}
+.titre-v{
+    font-size: 18px;
+}
+
+.fo {
+  text-decoration: none;
+  color:#fff;
+}
+.card-minia{
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    max-width: 300px;
+    margin-bottom:10px;
+    padding:3px;
+    font-weight: 600;
+}
+.card-minia:hover{
+    background-color: #d2c644;
+    color:#000;
+}
+.card_link{
+   text-decoration: none; 
+}
+
+.cover-mania{
+    margin-top: 34px;
+}
+
+
+  .act{
+    padding:10px 60px;
+    border-radius:30px;
+    color:#fff;
+    background-color:#DB095A;
+    font-size:1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration:none;
+        color:#fff;
+        background-color: #48041e;
+    }
+    
+}
+
+// bouton special react
+.button_r{
+ -webkit-tap-highlight-color: transparent;
+display: inline-flex;
+white-space: nowrap;
+align-items: center;
+justify-content: center;
+position: relative;
+border-radius: 44px;
+color: #fff;
+border: 1px solid #48041e;
+text-decoration: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+background-color: #DB095A;
+line-height: 1;
+overflow: hidden;
+cursor: pointer;
+box-shadow :#48041e 5px 5px;
+padding:10px 60px;
+
+min-width: 100px;
+font-size: 1.2rem;
+font-weight:bold;
+transition: all .2s cubic-bezier(.35,0,0,1); 
+&:hover{
+    box-shadow:#48041e 1px 1px;
+    text-decoration:none;
+    color:#fff;
+}
+}
+
+.cover-mania{
+    border-left:1px solid rgba(255,255,255,0.2);
+}
+.ty{
+    color: #f5f5f5;
+    font-size:bold;
+    margin-left:62px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.videoplay{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-1{
+        font-size:1.2rem;
+    }
+    .card-2{
+        font-size:1.5rem;  
+    }
+    .act {
+        padding: 10px 35px;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #DB095A;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+  }
+
+  .titre {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    padding:5px;
+    text-align:center;
+}
+
+.act-3 {
+    padding: 5px 9px;
+    font-size: 0.6rem;
+   
+}
+.nav-item{
+    font-size:0.7rem;
+}
+.ty{
+    margin-left:0px;
+   
+  
+}
+.ty h2{
+    font-size:18px;
+}
+}
